@@ -4,7 +4,7 @@
     import { ref, onMounted } from 'vue';
 
     // import api
-    import api from '../api/api';
+    import api from '../../api';
 
     // define api
     const posts = ref([]);
